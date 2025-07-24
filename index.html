@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    #form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      margin: 50px auto;
+      height: 40vh;
+      gap: 10px;
+      justify-content: center;
+      padding: 5vh;
+      border: 1px solid black;
+      text-align: center;
+      border-radius: 1vh;
+      box-shadow: 20px 20px 20px black;
+    }
+    #form input {
+      width: 100%;
+      padding: 5px;
+      border-radius: 1vh;
+      border: 1px solid #ccc;
+    }
+    #fetch {
+      width: max-content;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin: 0 auto;
+      padding: 5px;
+      border-radius: 1vh;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      font-family: Arial, sans-serif;
+    }
+    #content {
+      display: flex;
+      justify-self: center;
+      width: max-content;
+      height: fit-content;
+      background-color: black;
+      color: white;
+      width:80vw;
+      height: 80vh;
+      overflow: auto;
+
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  </style>
+  <body>
+    <h1>Fetch Github Repositories</h1>
+    <form action="" id="form">
+      <p>ENTER USER NAME:</p>
+      <input type="text" id="user" />
+      <p>ENTER REPOSITORY NAME:</p>
+      <input type="text" id="repo" />
+      <button id="fetch">Fetch README</button>
+    </form>
+    <div class="container">
+      <div id="content">p</div>
+    </div>
+  </body>
+  <script src="one.js"></script>
+</html>
