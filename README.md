@@ -32,7 +32,8 @@ The application leverages a combination of HTML for structure and JavaScript for
 
 2)**API Request Construction:** Upon clicking the "Fetch README" button, the JavaScript code dynamically constructs a GitHub API URL targeting the README.md file within the specified repository.
 
-    Example URL Structure: 
+Example URL Structure: 
+
           https://api.github.com/repos/{username}/{repository}/contents/README.md
 
 3)**Data Fetching:** An asynchronous fetch request is then made to this constructed GitHub API endpoint.
@@ -47,13 +48,13 @@ The application leverages a combination of HTML for structure and JavaScript for
   
   one.js: The JavaScript file responsible for all the dynamic behavior. This includes:
   
-    Handling user input from the form.
-    
-    Making the fetch request to the GitHub API.
-    
-    Decoding the Base64 encoded content.
-    
-    Updating the DOM to display the fetched README.
+Handling user input from the form.
+
+Making the fetch request to the GitHub API.
+
+Decoding the Base64 encoded content.
+
+Updating the DOM to display the fetched README.
 
 **Setup 🚀**
 
@@ -81,10 +82,10 @@ Follow these steps to fetch a README:
 
 The index.html file incorporates inline CSS to provide a clean and functional aesthetic:
 
-    Layout: Uses flexbox for centering and organizing elements.
+Layout: Uses flexbox for centering and organizing elements.
 
-    Form: Styled with a clear column layout, padding, rounded corners, and a subtle box-shadow.
+Form: Styled with a clear column layout, padding, rounded corners, and a subtle box-shadow.
 
-    Inputs & Button: Standardized padding, rounded borders, and a distinct background color for the "Fetch README" button.
+Inputs & Button: Standardized padding, rounded borders, and a distinct background color for the "Fetch README" button.
 
-    Content Display: The div with id="content" is styled with a black background and white text, making it suitable for displaying code or preformatted text, and includes overflow: auto for scrollability.
+Content Display: The div with id="content" is styled with a black background and white text, making it suitable for displaying code or preformatted text, and includes overflow: auto for scrollability.
