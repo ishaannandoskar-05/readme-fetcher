@@ -40,7 +40,7 @@ Example URL Structure:
 
 4)**Content Decoding:** The API response contains the README.md file's content encoded in Base64. The JavaScript decodes this Base64 string back into readable text.
 
-5)**Display:** Finally, the decoded Markdown content is injected into a preformatted HTML element ("<pre>") on the web page for clear display.
+5)**Display:** Finally, the decoded Markdown content is injected into a preformatted HTML element (pre) on the web page for clear display.
 
 **Files 📂**
 
