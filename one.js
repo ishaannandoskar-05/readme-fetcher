@@ -21,5 +21,6 @@ btn.addEventListener("click", function (e) {
   URI = `https://api.github.com/repos/${user.value}/${repo.value}/contents/README.md`;
 
   fetchData();
+  document.querySelector(".container").style.display = "block";
   container.style.display = "block";
 });
